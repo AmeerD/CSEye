@@ -25,18 +25,15 @@ suspect = ['Sarah_Jessica_Parker_0005']
 
 
 candidates = ['Alastair_Campbell_0001',
-              #'Audrey_Lacroix_0001',
               'Benazir_Bhutto_0003',
               'Carrie-Anne_Moss_0002',
               'Lisa_Ling_0001',
-              #'Sarah_Jessica_Parker_0006',
               'Rosario_Dawson_0001',
               'Nancy_Pelosi_0003',
-              'Phil_Bredesen_0001', 'Sarah_Jessica_Parker_0006','Audrey_Lacroix_0001',
+              'Phil_Bredesen_0001', 
+              'Sarah_Jessica_Parker_0006',
+              'Audrey_Lacroix_0001',
               'Naji_Sabri_0004']
-
-##Rearrange the images to test the model in different arrangements
-##random.shuffle(candidates)
 
 pics = np.zeros((1,11,100,100,3), dtype = np.uint8)
 
